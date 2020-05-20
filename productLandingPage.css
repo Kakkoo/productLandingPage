@@ -1,0 +1,46 @@
+#nav-bar {
+  position: fixed;
+}
+@media (min-width: 100px) and (max-width: 700px) {
+  #header1-img {
+    background: url("images/pic1.jpg") no-repeat;
+    height: 200px;
+    width: 200px;
+  }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+  #header1-img {
+    background: url("images/pic2.jpg") no-repeat;
+    height: 450px;
+    width: 450px;
+  }
+}
+@media (min-width: 901px) {
+  #header1-img {
+    background: url("images/pic3.jpg") no-repeat;
+    height: 700px;
+    width: 700px;
+  }
+}
+#box-container {
+  display: flex;
+  height: 500px;
+}
+#box1 {
+  background-color: burlywood;
+  width: 33%;
+  height: 10%;
+}
+#box2 {
+  background-color: rgb(197, 144, 74);
+  width: 33%;
+  height: 10%;
+}
+#box3 {
+  background-color: rgb(136, 85, 18);
+  width: 33%;
+  height: 10%;
+}
+#header-img {
+  background-image: url("images/pic1.jpg");
+}

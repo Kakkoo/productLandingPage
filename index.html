@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ProductLandingPage</title>
+  <link rel="stylesheet" type="text/css" href="productLandingPage.css" />
+</head>
+
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <a href="#footer" class="nav-link">Features</a>
+      <a href="#footer" class="nav-link">How it works</a>
+      <a href="#footer" class="nav-link">Pricing</a>
+    </nav>
+    <img id="header-img" src="../productLandingPage/images/fire40x90.png" />
+    <div id="header1-img"></div>
+  </header>
+  <div id="main1">
+    <h1>Handcrafted homemade masterpieces</h1>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" type="email" name="email" placeholder="Enter your email" required="" /><br /><br />
+      <input id="submit" type="submit" value="Get Started" /><br /><br />
+    </form>
+  </div>
+  <br />
+  <div id="main2">
+    <img id="b1" src="images/fire40x90.png" />
+    <p>
+      <b>Premium Materials</b>
+
+      ........................./.........../............/
+      ........./................/
+    </p>
+    <img id="b2" src="images/truck60x40.png" />
+    <p>
+      <b>Fast Shipping</b>
+
+      ........................./.........../............/
+      ........./................/
+    </p>
+    <img id="b3" src="images/battery60x40.png" />
+    <p>
+      <b>Quality Asssurance</b>
+
+      ........................./.........../............/
+      ........./................/
+    </p>
+  </div>
+  <iframe id="video" width="300px" height="250px" src="images/Turn off the TV by Vihaan.mp4">
+    Turn off the TV by Vihaan
+  </iframe>
+  <div id="box-container">
+    <div id="box1">
+      <h2>TENOR</h2>
+      <p>$600</p>
+      <p>////....../////</p>
+      <button id="button" name="button">
+        SELECT
+      </button>
+    </div>
+    <div id="box2">
+      <h2>BASS TROMBONE</h2>
+      <p>$900</p>
+      <p>////....../////</p>
+      <button id="button" name="button">
+        SELECT
+      </button>
+    </div>
+    <div id="box3">
+      <h2>VALVE TROMBONE</h2>
+      <p>$1200</p>
+      <p>////....../////</p>
+      <button id="button" name="button">
+        SELECT
+      </button>
+    </div>
+  </div>
+  <footer id="footer"></footer>
+
+  <style>
+    #header-img {
+      background: url("images/pic1.jpg") no-repeat;
+      height: 200px;
+      width: 200px;
+    }
+
+    #nav-bar {
+      position: fixed;
+    }
+
+    @media (min-width: 100px) and (max-width: 700px) {
+      #header1-img {
+        background: url("images/pic1.jpg") no-repeat;
+        height: 200px;
+        width: 200px;
+      }
+    }
+
+    @media (min-width: 701px) and (max-width: 900px) {
+      #header1-img {
+        background: url("images/pic2.jpg") no-repeat;
+        height: 450px;
+        width: 450px;
+      }
+    }
+
+    @media (min-width: 901px) {
+      #header1-img {
+        background: url("images/pic3.jpg") no-repeat;
+        height: 700px;
+        width: 700px;
+      }
+    }
+
+    #box-container {
+      display: flex;
+      height: 500px;
+    }
+
+    #box1 {
+      background-color: burlywood;
+      width: 33%;
+      height: 10%;
+    }
+
+    #box2 {
+      background-color: rgb(197, 144, 74);
+      width: 33%;
+      height: 10%;
+    }
+
+    #box3 {
+      background-color: rgb(136, 85, 18);
+      width: 33%;
+      height: 10%;
+    }
+  </style>
+  <script
+    src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
