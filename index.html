@@ -82,7 +82,10 @@
       </button>
     </div>
   </div>
-  <footer id="footer"></footer>
+  <footer id="footer">
+    <p>Privacy...........Tearms...........contact</p>
+    <p>&#64 Copyright 2016, Original paintings</p>
+  </footer>
   <style>
     body {
       text-align: center;
@@ -105,14 +108,14 @@
       width: 25%;
       background-color: blueviolet;
 
-      left: 400px;
+      left: 300px;
     }
 
     #b33 {
       width: 25%;
       background-color: chartreuse;
 
-      left: 700px;
+      left: 600px;
     }
 
     #main {
@@ -140,13 +143,8 @@
     @media (min-width: 100px) and (max-width: 700px) {
       #header1-img {
         background: url("images/pic1.jpg") no-repeat;
-        position: relative;
-
-        overflow: hidden;
-        padding: 0;
-        margin-right: -5px;
-        margin-left: auto;
-        margin-bottom: 0px;
+        height: 100px;
+        width: 100px;
         max-width: 250px;
       }
     }
@@ -154,13 +152,8 @@
     @media (min-width: 701px) and (max-width: 900px) {
       #header1-img {
         background: url("images/pic2.jpg") no-repeat;
-        position: relative;
-
-        overflow: hidden;
-        padding: 0;
-        margin-right: -25px;
-        margin-left: auto;
-        margin-bottom: 20px;
+        height: 200px;
+        width: 200px;
         max-width: 550px;
       }
     }
@@ -168,20 +161,20 @@
     @media (min-width: 901px) {
       #header1-img {
         background: url("images/pic3.jpg") no-repeat;
-        position: relative;
-        border: 2px solid #3f0c1f;
-        overflow: hidden;
-        padding: 0;
-        margin-right: -25px;
-        margin-left: auto;
-        margin-bottom: 20px;
+        height: 400px;
+        width: 400px;
         max-width: 750px;
       }
     }
 
+    #header1-img {
+      margin: 10px auto 20px;
+      display: block;
+    }
+
     #box-container {
       display: flex;
-      height: 500px;
+      height: 200px;
     }
 
     #box1 {
