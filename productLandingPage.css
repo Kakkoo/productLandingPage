@@ -41,3 +41,6 @@
   width: 33%;
   height: 10%;
 }
+#header-img {
+  background-image: url("images/pic1.jpg");
+}
