@@ -7,16 +7,20 @@
 
 </head>
 
+
+<header id="header">
+  <nav id="nav-bar">
+    <a href="#footer" id="b11" class="nav-link">Features</a>
+    <a href="#footer" id="b22" class="nav-link">How it works</a>
+    <a href="#footer" id="b33" class="nav-link">Pricing</a>
+  </nav>
+
+
+</header>
+
 <body>
-  <header id="header">
-    <nav id="nav-bar">
-      <a href="#footer" class="nav-link">Features</a>
-      <a href="#footer" class="nav-link">How it works</a>
-      <a href="#footer" class="nav-link">Pricing</a>
-    </nav>
-    <img id="header-img" src="images/fire40x90.png" />
-    <div id="header1-img"></div>
-  </header>
+  <img id="header-img" src="images/fire40x90.png" />
+  <div id="header1-img"></div>
   <div id="main1">
     <h1>Handcrafted homemade masterpieces</h1>
 
@@ -85,44 +89,93 @@
       background-color: rgb(205, 240, 240);
     }
 
+    #nav-bar {
+      display: flex;
+      height: 30px;
+      position: fixed;
+    }
+
+    #b11 {
+      width: 25%;
+      background-color: blanchedalmond;
+
+    }
+
+    #b22 {
+      width: 25%;
+      background-color: blueviolet;
+
+      left: 400px;
+    }
+
+    #b33 {
+      width: 25%;
+      background-color: chartreuse;
+
+      left: 700px;
+    }
+
+    #main {
+      position: relative;
+      object-position: center;
+    }
+
     #header-img {
       background: url("images/pic1.jpg");
       height: 20px;
       width: 20px;
+      position: relative;
+      bottom: -40px;
+      left: -400px;
     }
 
     .nav-link {
-      position: relative;
-      left: 400px;
-      top: -30px;
-    }
-
-    #nav-bar {
       position: fixed;
+      text-align: center;
 
     }
+
+
 
     @media (min-width: 100px) and (max-width: 700px) {
       #header1-img {
         background: url("images/pic1.jpg") no-repeat;
-        height: 200px;
-        width: 200px;
+        position: relative;
+
+        overflow: hidden;
+        padding: 0;
+        margin-right: -5px;
+        margin-left: auto;
+        margin-bottom: 0px;
+        max-width: 250px;
       }
     }
 
     @media (min-width: 701px) and (max-width: 900px) {
       #header1-img {
         background: url("images/pic2.jpg") no-repeat;
-        height: 450px;
-        width: 450px;
+        position: relative;
+
+        overflow: hidden;
+        padding: 0;
+        margin-right: -25px;
+        margin-left: auto;
+        margin-bottom: 20px;
+        max-width: 550px;
       }
     }
 
     @media (min-width: 901px) {
       #header1-img {
         background: url("images/pic3.jpg") no-repeat;
-        height: 600px;
-        width: 600px;
+        position: relative;
+        border: 2px solid #3f0c1f;
+        overflow: hidden;
+        padding: 0;
+        margin-right: -25px;
+        margin-left: auto;
+        margin-bottom: 20px;
+        max-width: 750px;
       }
     }
 
